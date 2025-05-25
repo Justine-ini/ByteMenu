@@ -9,8 +9,6 @@
 **Transform physical menus into secure, trackable digital experiences** while:
 - Reducing menu printing costs by 72% 📉
 - Increasing table turnover rate by 60% ⏱️
-- Boosting upsell conversions through dynamic menu updates 📈
-
 
 
 ## Features  
