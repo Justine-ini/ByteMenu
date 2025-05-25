@@ -1,0 +1,42 @@
+
+/* qrcode*/
+
+.qr-code-image {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* messages */
+
+.alert-container {
+    display: flex;
+    justify-content: center;
+}
+
+.alert {
+    transition: opacity 0.5s ease-in-out;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+    width: 100%;
+    max-width: 610px;
+}
+
+@media print {
+    nav, form, .alert-container {
+        display: none !important;
+    }
+    
+    .qr-code-image {
+        width: 400px !important;
+        height: 400px !important;
+    }
+    
+    .card {
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
